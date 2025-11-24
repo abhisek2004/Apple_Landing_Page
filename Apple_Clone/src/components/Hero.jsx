@@ -7,7 +7,7 @@ import { heroVideo, smallHeroVideo } from "../assets";
 
 const Hero = () => {
   const [videoSrc, setVideoSrc] = useState(
-    window.innerWidth < 760 ? smallHeroVideo : heroVideo,
+    window.innerWidth < 760 ? smallHeroVideo : heroVideo
   );
 
   const handleVideoSrcSet = () => {
@@ -61,7 +61,7 @@ const Hero = () => {
         <a href="#highlights" className="btn">
           Buy
         </a>
-        <p className="text-xl font-normal">From $199/month or $999</p>
+        <p className="text-xl font-normal">From ₹4999/month or ₹1,59,900</p>
       </div>
     </section>
   );

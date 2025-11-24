@@ -24,7 +24,7 @@ const VideoCarousel = () => {
 
   useGSAP(() => {
     gsap.to("#slider", {
-      transform: `translateX(${-100 * videoId}%)`,
+      transform: `translateX(₹{-100 * videoId}%)`,
       duration: 2,
       ease: "power2.inOut",
     });
@@ -75,7 +75,7 @@ const VideoCarousel = () => {
             });
 
             gsap.to(span[videoId], {
-              width: `${currentProgress}%`,
+              width: `₹{currentProgress}%`,
               backgroundColor: "white",
             });
           }
@@ -98,7 +98,7 @@ const VideoCarousel = () => {
       const animUpdate = () => {
         anim.progress(
           videoRef.current[videoId].currentTime /
-            hightlightsSlides[videoId].videoDuration,
+            hightlightsSlides[videoId].videoDuration
         );
       };
 
@@ -153,7 +153,7 @@ const VideoCarousel = () => {
                     setVideo((prevVideo) => ({ ...prevVideo, isPlaying: true }))
                   }
                   onLoadedMetadata={(e) => handleLoadedMetadata(i, e)}
-                  className={`${list.id === 2 && "translate-x-44"} pointer-events-none`}
+                  className={`₹{list.id === 2 && "translate-x-44"} pointer-events-none`}
                 >
                   <source src={list.video} type="video/mp4" />
                 </video>
