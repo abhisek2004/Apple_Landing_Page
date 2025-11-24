@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Abhisek Panda Kumar Verma",
+    "email": "Abhisek Panda.verma12345@gmail.com",
+    "url": "https://github.com/Abhisek Panday"
   },
   "description": "Modern iPhone 15 inspired website using Three.js and GSAP animations.",
   "keywords": [
@@ -50,16 +50,16 @@
   "homepage": "https://github.com/abhisek2004/Apple_Landing_Page#readme",
   "bugs": {
     "url": "https://github.com/abhisek2004/Apple_Landing_Page/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "email": "Abhisek Panda.verma12345@gmail.com"
   },
   "funding": [
     {
       "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
+      "url": "https://www.patreon.com/Abhisek Panda"
     },
     {
       "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
+      "url": "https://www.buymeacoffee.com/Abhisek Panda"
     }
   ],
   "dependencies": {
