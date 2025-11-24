@@ -45,11 +45,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/apple-clone.git"
+    "url": "https://github.com/abhisek2004/Apple_Landing_Page.git"
   },
-  "homepage": "https://github.com/sanidhyy/apple-clone#readme",
+  "homepage": "https://github.com/abhisek2004/Apple_Landing_Page#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/apple-clone/issues",
+    "url": "https://github.com/abhisek2004/Apple_Landing_Page/issues",
     "email": "sanidhya.verma12345@gmail.com"
   },
   "funding": [
@@ -64,11 +64,12 @@
   ],
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@react-three/drei": "^9.121.5",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
     "gsap": "^3.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.3.1",
-    "three": "^0.181.1",
+    "three": "^0.181.2",
     "three-stdlib": "^2.36.1"
   },
   "devDependencies": {
