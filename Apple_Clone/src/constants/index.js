@@ -86,4 +86,4 @@ export const footerLinks = [
   "Site Map",
 ];
 
-export const sourceCode = "https://github.com/sanidhyy/apple-clone";
+export const sourceCode = "https://github.com/abhisek2004/Apple_Landing_Page";
